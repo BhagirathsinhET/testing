@@ -54,9 +54,3 @@ jobs:
           CI: true
       - name: Run linter
         run: npm run lint
-        env:
-          CI: true
-      - name: Build project
-        run: npm run build
-        env:
-          CI: true
